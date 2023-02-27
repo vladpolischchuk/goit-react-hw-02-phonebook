@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { nanoid } from 'nanoid'
 
-import ContactForm from "modules/ContactForm/ContactForm";
-import ContactList from "modules/ContactList/ContactList";
-import ContactFilter from "modules/ContactFilter/ContactFilter";
+import ContactForm from "./modules/ContactForm/ContactForm";
+import ContactList from "./modules/ContactList/ContactList";
+import ContactFilter from "./modules/ContactFilter/ContactFilter";
 
 class Phonebook extends Component {
 
